@@ -222,10 +222,7 @@ nav ul li{
     margin-left: 20px;
   
 }
-.mr{
-    margin-right: 60px;
-    
-}
+
 nav ul li:hover {
     color:#ff4747;
 }
@@ -276,4 +273,7 @@ nav ul li ul li {
    
     font-size: 18px;
 
+}
+.m1{
+    margin-right: 6px;
 }
