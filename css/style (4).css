@@ -207,13 +207,12 @@ nav ul li ul {
 }
 nav li:hover ul {
     display: block;
-    background-color: #f2f2f3;
+   
     padding-top: 35px;
-    background-clip: content-box;
+    
     white-space: nowrap;
     margin-left: -20px;
-    border-radius: border-box;
-    
+   
 }
 .b{
     color: black;
@@ -222,19 +221,34 @@ nav ul li{
     margin-left: 20px;
   
 }
+nav ul li ul li{
+    background-color:gainsboro ;
+    padding: 10px;
+    width: 100%;
+}
+nav ul li ul li:hover{
+    color: white;
+    background-color: black;
 
+}
 nav ul li:hover {
     color:#ff4747;
+    
+    
 }
 a{
     text-decoration: none;
     color: black;
 }
-nav ul a:hover{
-    color:#ff4747;
+nav ul  li a:hover{
+    
+    color:white;
+    
+    
 }
 nav ul li{
     margin-right: 20px;
+    font-size: 1.1rem;
 }
 nav ul li ul li {
     padding: 10px 10px;
